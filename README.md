@@ -2,6 +2,7 @@
 
 ## kakarot
 
+```
 src/utils/utils.cairo
 src/utils/eth_transaction.cairo
 src/utils/bytes.cairo
@@ -52,13 +53,15 @@ src/kakarot/constants.cairo
 src/kakarot/model.cairo
 src/kakarot/interfaces/interfaces.cairo
 src/kakarot/stack.cairo
+```
 
 ## kakarot-lib
 
-src/CairoLib.sol
+`src/CairoLib.sol`
 
 ## kakarot-ssj
 
+```
 crates/contracts/src/cairo1_helpers.cairo
 crates/evm/src/errors.cairo
 crates/evm/src/precompiles/ec_operations/ec_add.cairo
@@ -67,3 +70,4 @@ crates/evm/src/precompiles/ec_operations.cairo
 crates/evm/src/precompiles/modexp.cairo
 crates/evm/src/precompiles/sha256.cairo
 crates/utils/src/helpers.cairo
+```
